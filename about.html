@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>ArkaShine Innovations</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html"><img src="images/logo.png" alt="ArkaShine Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">SUSTAINABILITY GOALS</a></li>
+                    <li><a href="#">CAREERS</a></li>
+                    <li><a href="#">PROTECTING SOILS</a></li>
+                    <li><a href="#">PROTECTING CROPS</a></li>
+                    <li><a href="#">MEDIA</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">VISION & MISSIONS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <section class="header">
+            <div class="text-box">
+                <h1>ArkaShine Innovations</h1>
+                <p>ArkaShine Innovations is a pioneering startup dedicated to revolutionizing agricultural practices through the development of cutting-edge portable soil testing devices.Join us on our mission to revolutionize agriculture and create a brighter, more sustainable future for farmers and the planet</p>
+                <a href="#" class="hero-btn">Visit us to know More</a>
+            </div>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
+
+
+<!---ABOUT US-->       
+
+<section class="about-us">
+    <div class="about-col">
+        <h1>The best is here</h1>
+        <p>ArkaShine Innovations is a pioneering startup dedicated to transforming agriculture through innovative technologies. Specializing in portable soil testing devices, ArkaShine aims to revolutionize farming practices by providing accurate and accessible solutions to optimize soil health and crop productivity. With a commitment to sustainability, <br>their cutting-edge inventions empower farmers to make informed decisions, leading to bountiful harvests while minimizing environmental impact. ArkaShine's vision extends beyond mere profit, striving to create a brighter, more sustainable future for both farmers and the planet. Through continuous innovation and collaboration, they aspire to be leaders in agricultural advancement, driving positive change in the industry.</p>
+         <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col"></div>
+    <img src="images/founders.png">
+</section>
+       
+
+    
+<!--footer-->
+
+<head>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Join us on our mission to revolutionize agriculture and create a higher, more sustainable future for farmers and the planet</p>
+    <div class="icons">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+</section>
+
+
+
+
+
+        <!--------JavaScript for Toggle Menu------->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
